@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – CarsBuyNSell</title>
+<meta name="description" content="How CarsBuyNSell collects, uses, protects and shares your personal information.">
+<link rel="icon" type="image/png" href="../assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#ffffff}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+a{color:#1D056E}a:hover{color:#2a0c8a}
+
+:focus-visible{outline:3px solid #F8B10E;outline-offset:2px}
+.cars-panel{display:contents}
+.cars-panel[hidden]{display:none}
+.car-tab{min-height:44px;padding:0 20px;border:0;border-radius:999px;background:transparent;color:#1D056E;font-family:Poppins,sans-serif;font-weight:600;font-size:15px;cursor:pointer;transition:background .2s,color .2s}
+.car-tab.is-active{background:#1D056E;color:#fff}
+.faq summary::-webkit-details-marker{display:none}
+.faq .chev{flex:0 0 auto;transition:transform .2s}
+.faq[open] .chev{transform:rotate(180deg)}
+a{transition:opacity .2s}
+
+
+/* ---------- Header / navigation ---------- */
+.site-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid #ddd8ee}
+.nav-bar{max-width:1240px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.nav-logo{display:flex;align-items:center;flex:0 0 auto}
+.nav-logo img{height:44px;width:auto;display:block}
+.nav-links{display:flex;gap:28px;font-family:Poppins,'Segoe UI',sans-serif;font-weight:500;font-size:15px}
+.nav-links a{text-decoration:none;color:#17112E;padding:8px 0}
+.nav-links a:hover{color:#1D056E}
+.nav-cta{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 20px;border-radius:999px;background:#1D056E;color:#fff;text-decoration:none;font-family:Poppins,'Segoe UI',sans-serif;font-weight:600;font-size:15px;white-space:nowrap}
+.nav-cta:hover{color:#fff;background:#2a0c8a}
+.nav-toggle{display:none;width:44px;height:44px;border:1px solid #ddd8ee;border-radius:12px;background:#fff;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0}
+.nav-toggle .bar{display:block;width:20px;height:2px;border-radius:2px;background:#1D056E;transition:transform .25s,opacity .2s}
+.nav-toggle[aria-expanded="true"] .bar:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-toggle[aria-expanded="true"] .bar:nth-child(2){opacity:0}
+.nav-toggle[aria-expanded="true"] .bar:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:flex;flex-direction:column;padding:8px 24px 20px;border-top:1px solid #ddd8ee;background:#fff;font-family:Poppins,'Segoe UI',sans-serif}
+.mobile-menu[hidden]{display:none}
+.mobile-menu a{display:flex;align-items:center;min-height:52px;color:#17112E;text-decoration:none;font-weight:500;font-size:17px;border-bottom:1px solid #f0edf8}
+.mobile-menu .mobile-cta{margin-top:14px;justify-content:center;border:0;border-radius:14px;background:#1D056E;color:#fff;font-weight:600}
+@media (max-width: 960px){
+  .nav-links,.nav-cta{display:none}
+  .nav-toggle{display:flex}
+  .nav-logo img{height:38px}
+}
+@media (min-width: 961px){ .mobile-menu{display:none !important} }
+
+/* ---------- Tablet ---------- */
+@media (max-width: 960px){
+  h1{font-size:50px !important}
+  h2{font-size:34px !important}
+  section[style*="padding: 96px"]{padding-top:72px !important;padding-bottom:72px !important}
+}
+
+/* ---------- Phone ---------- */
+@media (max-width: 640px){
+  h1{font-size:38px !important;letter-spacing:-0.02em !important}
+  h2{font-size:28px !important}
+  section[style*="padding: 96px"],section[style*="padding: 56px 24px 0"],section[style*="padding: 72px 24px 96px"]{padding-top:56px !important;padding-bottom:56px !important;padding-left:16px !important;padding-right:16px !important}
+  section[style*="padding: 0 24px"]{padding-left:16px !important;padding-right:16px !important}
+  #top > div{padding:40px 16px 104px !important;gap:36px !important}
+  #top a[style*="min-height: 56px"]{flex:1 1 100%;justify-content:center}
+  .stats-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important;padding:22px 14px !important;gap:18px 10px !important}
+  .stats-grid p[style*="font-size: 42px"]{font-size:30px !important}
+  .stats-grid p[style*="font-size: 15px"]{font-size:13px !important}
+  .cat-grid{grid-template-columns:repeat(2,minmax(0,1fr)) !important;gap:12px !important}
+  .cat-grid > div{padding:20px 10px !important}
+  div[style*="padding: 40px; border-radius: 24px"]{padding:26px !important}
+  div[style*="padding: 44px; border-radius: 28px"],div[style*="padding: 56px 44px"]{padding:28px 22px !important}
+  div[style*="padding: 36px; border-radius: 24px"]{padding:22px !important}
+  div[role="tablist"][aria-label="Listing type"]{width:100%}
+  div[role="tablist"][aria-label="Listing type"] .car-tab{flex:1}
+  #app img[style*="max-width: 380px"]{max-width:300px !important}
+  /* comparison table becomes cards */
+  .cmp-table thead{display:none}
+  .cmp-table,.cmp-table tbody,.cmp-table tr,.cmp-table th,.cmp-table td{display:block;width:100%;box-sizing:border-box}
+  .cmp-table tr{padding:16px;border-top:1px solid #ddd8ee}
+  .cmp-table tr:first-child{border-top:0}
+  .cmp-table th[scope="row"]{padding:0 0 8px !important;border:0 !important;font-family:Poppins,sans-serif;font-size:17px}
+  .cmp-table td{padding:10px 12px !important;border:0 !important;border-radius:10px;margin-top:6px}
+  .cmp-table td::before{content:attr(data-label);display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#4a4560;margin-bottom:2px}
+  .cmp-table td[data-label="CarsBuyNSell"]{background:#f1eefb !important}
+  .cmp-table td[data-label="CarsBuyNSell"]::before{color:#1D056E}
+}
+@media (max-width: 380px){
+  h1{font-size:34px !important}
+  .stats-grid p[style*="font-size: 42px"]{font-size:26px !important}
+}
+
+
+@media (min-width: 641px) and (max-width: 960px){ .stats-grid{grid-template-columns:repeat(4,minmax(0,1fr)) !important} }
+@media (max-width: 960px){ #top img[alt^="CarsBuyNSell showroom"]{aspect-ratio:16 / 11 !important} }
+
+/* ---------- Join the network + map ---------- */
+.join-wrap{max-width:1240px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:48px}
+.join-text{flex:1 1 360px;min-width:0;display:flex;flex-direction:column;gap:18px}
+.join-btn{align-self:flex-start;display:inline-flex;align-items:center;min-height:48px;padding:0 22px;border-radius:12px;border:2px solid #1D056E;color:#1D056E;text-decoration:none;font-weight:600}
+.map-card{flex:1.4 1 520px;min-width:0;margin:0;padding:24px;border-radius:24px;background:#fff;border:1px solid #ddd8ee;box-shadow:0 20px 50px rgba(29,5,110,.08);display:flex;flex-direction:column;gap:16px;box-sizing:border-box}
+.map-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.map-title{margin:0;font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;font-size:18px;color:#17112E}
+.map-count{padding:5px 12px;border-radius:999px;background:#F8B10E;color:#17112E;font-weight:700;font-size:13px;white-space:nowrap}
+.map-frame{width:100%}
+.mh-map{display:block;width:100%;height:auto;overflow:visible}
+.mh-map .d-off{fill:#f1eff8;stroke:#ffffff;stroke-width:1.5}
+.mh-map .d-on{fill:#d6cdf6;stroke:#ffffff;stroke-width:1.5;transition:fill .2s}
+.mh-map .d-on:hover{fill:#c3b6f1}
+.mh-map .map-label{font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;font-size:22px;fill:#17112E;paint-order:stroke;stroke:#ffffff;stroke-width:6px;stroke-linejoin:round}
+.mh-map .map-label-hq{fill:#1D056E;font-size:24px}
+.mh-map .pulse{fill:#1D056E;opacity:.18;transform-box:fill-box;transform-origin:center;animation:pin-pulse 2.4s ease-out infinite}
+.mh-map .pulse-hq{fill:#F8B10E;opacity:.35}
+@keyframes pin-pulse{0%{transform:scale(.6);opacity:.35}100%{transform:scale(1.6);opacity:0}}
+.map-legend{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:14px;color:#4a4560}
+.map-legend > span{display:inline-flex;align-items:center;gap:8px}
+.lg{display:inline-block;width:14px;height:14px;border-radius:50%}
+.lg-hq{background:#F8B10E;box-shadow:0 0 0 3px #1D056E inset}
+.lg-pin{background:#1D056E}
+.lg-area{background:#d6cdf6;border-radius:4px}
+.city-list{list-style:none;margin:0;padding:16px 0 0;border-top:1px solid #ddd8ee;display:flex;flex-wrap:wrap;gap:8px}
+.city-chip{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;background:#f6f4fd;border:1px solid #ddd8ee;color:#1D056E;font-weight:600;font-size:14px}
+.city-chip .dot{width:8px;height:8px;border-radius:50%;background:#1D056E}
+.city-chip-hq{background:#fff7e2;border-color:#F8B10E}
+.city-chip-hq .dot{background:#F8B10E}
+@media (max-width: 640px){
+  .join-wrap{gap:32px}
+  .map-card{padding:16px;border-radius:20px}
+  .mh-map .map-label{font-size:30px;stroke-width:8px}
+  .mh-map .map-label-hq{font-size:32px}
+  .mh-map .hq-suffix{display:none}
+  .map-legend{font-size:13px}
+}
+@media (prefers-reduced-motion: reduce){ .mh-map .pulse{animation:none;opacity:0} }
+
+@media (prefers-reduced-motion: reduce){*{transition:none !important;scroll-behavior:auto !important}}
+</style>
+<style>
+.pp-hero{position:relative;overflow:hidden;background-color:#F7F6FB;background-image:radial-gradient(#d9d4ec 1.2px,transparent 1.2px);background-size:22px 22px;border-bottom:1px solid #ddd8ee}
+.pp-hero-ring{position:absolute;top:-200px;right:-180px;width:520px;height:520px;border-radius:50%;border:70px solid #F8B10E;opacity:.16;pointer-events:none}
+.pp-hero-inner{position:relative;max-width:1240px;margin:0 auto;padding:56px 24px 64px;display:flex;flex-direction:column;gap:16px}
+.pp-crumb{margin:0;font-size:14px;color:#4a4560}
+.pp-crumb a{color:#1D056E;font-weight:600;text-decoration:none}
+.pp-crumb a:hover{text-decoration:underline}
+.pp-eyebrow{margin:0;align-self:flex-start;display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;background:#fff;border:1px solid #ddd8ee;color:#1D056E;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.pp-hero h1{margin:0;font-family:Poppins,'Segoe UI',sans-serif;font-weight:800;font-size:56px;line-height:1.05;letter-spacing:-.03em;color:#17112E}
+.pp-hero h1 span{color:#1D056E;box-shadow:inset 0 -14px 0 #fcd772}
+.pp-intro{margin:0;max-width:760px;font-size:18px;line-height:1.65;color:#4a4560}
+.pp-meta{margin:0;font-size:14px;color:#4a4560}
+.pp-layout{max-width:1240px;margin:0 auto;padding:56px 24px 96px;display:grid;grid-template-columns:280px minmax(0,1fr);gap:56px;align-items:start}
+.pp-toc{position:sticky;top:96px;padding:22px;border-radius:20px;background:#f6f4fd;border:1px solid #ddd8ee}
+.pp-toc-title{margin:0 0 12px;font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;font-size:15px;color:#17112E}
+.pp-toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.pp-toc a{display:flex;align-items:center;gap:12px;min-height:40px;padding:6px 10px;border-radius:10px;color:#17112E;text-decoration:none;font-size:15px;font-weight:500;line-height:1.3;transition:background .2s,color .2s}
+.pp-toc a:hover{background:#fff;color:#1D056E}
+.pp-toc a.is-active{background:#1D056E;color:#fff}
+.pp-toc a.is-active .toc-num{color:#F8B10E}
+.toc-num{flex:0 0 auto;font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;font-size:12px;color:#1D056E;font-variant-numeric:tabular-nums}
+.pp-content{display:flex;flex-direction:column;gap:20px;min-width:0}
+.pp-section{display:flex;gap:22px;padding:32px;border-radius:24px;background:#fff;border:1px solid #ddd8ee}
+.pp-num{flex:0 0 52px;height:52px;border-radius:16px;background:#1D056E;color:#F8B10E;display:flex;align-items:center;justify-content:center;font-family:Poppins,'Segoe UI',sans-serif;font-weight:800;font-size:17px}
+.pp-body{min-width:0;flex:1}
+.pp-body h2{margin:6px 0 14px;font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;font-size:26px;line-height:1.2;color:#17112E}
+.pp-body h3{margin:22px 0 6px;font-family:Poppins,'Segoe UI',sans-serif;font-weight:600;font-size:18px;color:#1D056E}
+.pp-body p{margin:0 0 10px;font-size:16.5px;line-height:1.7;color:#4a4560;max-width:72ch}
+.pp-list{list-style:none;margin:6px 0 0;padding:0;display:flex;flex-direction:column;gap:10px}
+.pp-list li{position:relative;padding-left:32px;font-size:16.5px;line-height:1.6;color:#17112E}
+.pp-list li::before{content:"";position:absolute;left:0;top:3px;width:20px;height:20px;border-radius:50%;background:#F8B10E url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2317112E' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E") center/12px no-repeat}
+.pp-contact{margin-top:24px;padding:22px;border-radius:18px;background:#fff7e2;border:2px solid #F8B10E}
+.pp-contact-title{margin:0 0 12px !important;font-family:Poppins,'Segoe UI',sans-serif;font-weight:700;color:#17112E !important}
+.pp-contact-links{display:flex;flex-wrap:wrap;gap:10px}
+.pp-contact-links a{display:inline-flex;align-items:center;gap:8px;min-height:46px;padding:0 18px;border-radius:12px;background:#1D056E;color:#fff;text-decoration:none;font-weight:600;font-size:15px;word-break:break-all}
+.pp-contact-links a:hover{background:#2a0c8a;color:#fff}
+.pp-back{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;min-height:48px;padding:0 22px;border-radius:12px;border:2px solid #1D056E;color:#1D056E;text-decoration:none;font-family:Poppins,'Segoe UI',sans-serif;font-weight:600;margin-top:8px}
+@media (max-width: 960px){
+  .pp-layout{grid-template-columns:minmax(0,1fr);gap:28px;padding-top:32px}
+  .pp-toc{position:static}
+  .pp-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .pp-hero h1{font-size:44px !important}
+}
+@media (max-width: 640px){
+  .pp-hero-inner{padding:36px 16px 44px}
+  .pp-hero h1{font-size:36px !important}
+  .pp-intro{font-size:16.5px}
+  .pp-layout{padding:24px 16px 64px}
+  .pp-toc{padding:16px}
+  .pp-toc ol{grid-template-columns:minmax(0,1fr)}
+  .pp-section{flex-direction:column;gap:12px;padding:22px 18px;border-radius:20px}
+  .pp-num{flex-basis:auto;width:44px;height:44px;border-radius:12px;font-size:15px}
+  .pp-body h2{font-size:22px !important;margin-top:0}
+  .pp-contact{padding:16px}
+  .pp-contact-links a{flex:1 1 100%;justify-content:center}
+}
+</style>
+</head>
+<body>
+<div style="font-family: Inter, 'Segoe UI', system-ui, sans-serif; color: #17112E; background: #ffffff; line-height: 1.5">
+<header class="site-header">
+  <div class="nav-bar">
+    <a href="../#top" class="nav-logo" aria-label="CarsBuyNSell home">
+      <img src="../assets/logo.png" alt="CarsBuyNSell" width="120" height="44">
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="../#platform">Platform</a>
+      <a href="../#cars">Live Cars</a>
+      <a href="../#franchise">Franchise</a>
+      <a href="../#network">Network</a>
+      <a href="../#contact">Contact</a>
+    </nav>
+    <a href="https://play.google.com/store" class="nav-cta">
+      <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"></path><path d="M7 10l5 5 5-5"></path><path d="M5 21h14"></path></svg>
+      Download App
+    </a>
+    <button type="button" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile" hidden>
+      <a href="../#platform">Platform</a>
+      <a href="../#cars">Live Cars</a>
+      <a href="../#franchise">Franchise</a>
+      <a href="../#network">Network</a>
+      <a href="../#contact">Contact</a>
+      <a href="https://play.google.com/store" class="mobile-cta">Download App</a>
+  </nav>
+</header>
+<main>
+  <section class="pp-hero" aria-labelledby="pp-title">
+    <div class="pp-hero-ring" aria-hidden="true"></div>
+    <div class="pp-hero-inner">
+      <p class="pp-crumb"><a href="../">Home</a> / Privacy Policy</p>
+      <p class="pp-eyebrow">Legal</p>
+      <h1 id="pp-title">Privacy <span>Policy</span></h1>
+      <p class="pp-intro">At Raj Enterprises, we understand that your personal information matters to you, and it matters to us too. This privacy policy explains how we collect, use, protect, and share your information when you use our car buying and selling services. We’re committed to being transparent about our practices and giving you control over your data.</p>
+      <p class="pp-meta">Last updated: October 21, 2026</p>
+    </div>
+  </section>
+  <div class="pp-layout">
+    <nav class="pp-toc" aria-label="On this page">
+      <p class="pp-toc-title">On this page</p>
+      <ol><li><a href="#collect"><span class="toc-num">01</span>Information We Collect</a></li><li><a href="#use"><span class="toc-num">02</span>How We Use Your Information</a></li><li><a href="#share"><span class="toc-num">03</span>Who We Share Your Information With</a></li><li><a href="#protect"><span class="toc-num">04</span>How We Protect Your Data</a></li><li><a href="#rights"><span class="toc-num">05</span>Your Privacy Rights</a></li><li><a href="#cookies"><span class="toc-num">06</span>Cookies and Tracking</a></li><li><a href="#children"><span class="toc-num">07</span>Children’s Privacy</a></li><li><a href="#changes"><span class="toc-num">08</span>Changes to This Policy</a></li></ol>
+    </nav>
+    <div class="pp-content">
+<section id="collect" class="pp-section" aria-labelledby="collect-h"><span class="pp-num" aria-hidden="true">01</span><div class="pp-body"><h2 id="collect-h">Information We Collect</h2><h3>Personal Details You Provide</h3><p>When you reach out to us for buying or selling a vehicle, we collect your name, phone number, email address, and location details. If you’re applying for a car loan through our platform, we’ll need additional financial documents like your PAN card, Aadhaar card, and bank statements to process your application smoothly.</p><h3>Vehicle Information</h3><p>For sellers, we collect details about your vehicle including registration number, make, model, year, condition, and photographs. This helps us provide accurate valuations and connect you with genuine buyers.</p><h3>Usage Data</h3><p>We automatically collect information about how you interact with our website - pages you visit, time spent, device type, and browser information. This helps us improve your experience and fix any technical issues.</p></div></section>
+<section id="use" class="pp-section" aria-labelledby="use-h"><span class="pp-num" aria-hidden="true">02</span><div class="pp-body"><h2 id="use-h">How We Use Your Information</h2><p>We use your information responsibly to serve you better:</p><ul class="pp-list"><li>To connect buyers and sellers and facilitate vehicle transactions</li><li>To process loan applications with our partner financial institutions</li><li>To provide vehicle valuations and market insights</li><li>To send you updates about your transactions, new listings that match your preferences, and important service announcements</li><li>To improve our services based on user feedback and behavior patterns</li><li>To verify your identity and prevent fraudulent activities</li></ul></div></section>
+<section id="share" class="pp-section" aria-labelledby="share-h"><span class="pp-num" aria-hidden="true">03</span><div class="pp-body"><h2 id="share-h">Who We Share Your Information With</h2><p>We only share your information when necessary and with your consent:</p><h3>Verified Buyers and Sellers</h3><p>When you list a vehicle or express interest in buying, we share relevant contact details with the other party to enable direct communication and transaction completion.</p><h3>Financial Partners</h3><p>For loan applications, we share your documents with our trusted banking and NBFC partners who evaluate your eligibility and provide financing options.</p><h3>Service Providers</h3><p>We work with third-party service providers for SMS notifications, email communications, payment processing, and website hosting. These partners have access only to information necessary for their specific services.</p><h3>Legal Requirements</h3><p>We may disclose your information if required by law, court order, or government authority, or to protect our rights and prevent illegal activities.</p></div></section>
+<section id="protect" class="pp-section" aria-labelledby="protect-h"><span class="pp-num" aria-hidden="true">04</span><div class="pp-body"><h2 id="protect-h">How We Protect Your Data</h2><p>Your data security is our top priority. We implement industry-standard security measures including encrypted data transmission (SSL), secure servers, regular security audits, and restricted access to personal information on a need-to-know basis. However, while we strive to protect your data, no internet transmission is 100% secure, and we encourage you to take precautions when sharing sensitive information online.</p></div></section>
+<section id="rights" class="pp-section" aria-labelledby="rights-h"><span class="pp-num" aria-hidden="true">05</span><div class="pp-body"><h2 id="rights-h">Your Privacy Rights</h2><p>You have the right to:</p><ul class="pp-list"><li>Access the personal information we hold about you</li><li>Request corrections to inaccurate or incomplete data</li><li>Request deletion of your personal information, subject to legal retention requirements</li><li>Opt out of promotional communications at any time</li><li>Withdraw consent for data processing where applicable</li></ul><div class="pp-contact"><p class="pp-contact-title">To exercise any of these rights, please contact us</p><div class="pp-contact-links"><a href="mailto:privacy@rajenterprises.com"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>privacy@rajenterprises.com</a><a href="tel:+919607864200"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"></path></svg>+91 96078 64200</a></div></div></div></section>
+<section id="cookies" class="pp-section" aria-labelledby="cookies-h"><span class="pp-num" aria-hidden="true">06</span><div class="pp-body"><h2 id="cookies-h">Cookies and Tracking</h2><p>We use cookies and similar technologies to remember your preferences, analyze site traffic, and personalize your experience. You can control cookie settings through your browser, though disabling cookies may affect some website functionality.</p></div></section>
+<section id="children" class="pp-section" aria-labelledby="children-h"><span class="pp-num" aria-hidden="true">07</span><div class="pp-body"><h2 id="children-h">Children’s Privacy</h2><p>Our services are not intended for individuals under 18 years of age. We do not knowingly collect personal information from children. If you believe we have inadvertently collected such information, please contact us immediately.</p></div></section>
+<section id="changes" class="pp-section" aria-labelledby="changes-h"><span class="pp-num" aria-hidden="true">08</span><div class="pp-body"><h2 id="changes-h">Changes to This Policy</h2><p>We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. We’ll notify you of significant changes by posting a notice on our website or sending you an email. Please review this policy periodically to stay informed about how we protect your information.</p></div></section>
+      <a href="../" class="pp-back"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 18l-6-6 6-6"></path></svg>Back to home</a>
+    </div>
+  </div>
+</main>
+<footer style="background: #1D056E; color: #e6e1f7; padding: 64px 24px 32px">
+  <div style="max-width: 1240px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px">
+      <div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+        <span style="align-self: flex-start; padding: 10px 14px; border-radius: 14px; background: #ffffff; display: flex"><img src="../assets/logo.png" alt="CarsBuyNSell" style="height: 40px; width: auto; display: block"></span>
+        <p style="margin: 0; max-width: 340px; font-size: 15px">Premier automotive trading ecosystem. Sell · Purchase · Exchange · Finance.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+        <p style="margin: 0; font-family: Poppins, 'Segoe UI', sans-serif; font-weight: 700; color: #ffffff">Explore</p>
+        <a href="../#platform" style="color: #e6e1f7; text-decoration: none">Platform</a>
+        <a href="../#cars" style="color: #e6e1f7; text-decoration: none">Live cars</a>
+        <a href="../#franchise" style="color: #e6e1f7; text-decoration: none">Franchise</a>
+        <a href="https://drive.google.com/" style="color: #e6e1f7; text-decoration: none">Brochure</a>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+        <p style="margin: 0; font-family: Poppins, 'Segoe UI', sans-serif; font-weight: 700; color: #ffffff">Head office</p>
+        <p style="margin: 0">VTP Trade Park, Pune<br>Maharashtra</p>
+        <p style="margin: 0">Branches: Pune · Mumbai · Baramati · Satara</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+        <p style="margin: 0; font-family: Poppins, 'Segoe UI', sans-serif; font-weight: 700; color: #ffffff">Follow us</p>
+        <a href="#" style="color: #e6e1f7; text-decoration: none">Instagram</a>
+        <a href="#" style="color: #e6e1f7; text-decoration: none">Facebook</a>
+        <a href="#" style="color: #e6e1f7; text-decoration: none">YouTube</a>
+      </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; padding-top: 24px; border-top: 1px solid #3b1fa0; font-size: 14px; color: #cfc9ea">
+      <span>© 2026 CarsBuyNSell. All rights reserved.</span>
+      <span style="display: flex; flex-wrap: wrap; gap: 8px 20px"><a href="../privacy-policy/" aria-current="page" style="color: #ffffff">Privacy Policy</a><a href="../terms/" style="color: #cfc9ea">Terms &amp; Conditions</a><a href="../return-policy/" style="color: #cfc9ea">Return &amp; Cancellation Policy</a></span>
+    </div>
+  </div>
+</footer>
+</div>
+<script>
+// Mobile navigation
+(function () {
+  var btn = document.querySelector('.nav-toggle'), menu = document.getElementById('mobile-menu');
+  if (!btn || !menu) return;
+  function setOpen(open) {
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    menu.hidden = !open;
+  }
+  btn.addEventListener('click', function () { setOpen(menu.hidden); });
+  menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { setOpen(false); btn.focus(); } });
+  window.addEventListener('resize', function () { if (window.innerWidth > 960) setOpen(false); });
+})();
+
+// Highlight current section in the table of contents
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.pp-toc a'));
+  if (!('IntersectionObserver' in window) || !links.length) return;
+  var map = {}; links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { links.forEach(function (a) { a.classList.remove('is-active'); a.removeAttribute('aria-current'); });
+        var a = map[e.target.id]; if (a) { a.classList.add('is-active'); a.setAttribute('aria-current', 'true'); } }
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  document.querySelectorAll('.pp-section').forEach(function (s) { io.observe(s); });
+})();
+</script>
+</body>
+</html>
